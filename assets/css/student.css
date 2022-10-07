@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+#student-title{
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+body{
+    background: lightskyblue;
+}
+#select-batch{
+    padding: 5px;
+   
+}
+#select-status{
+    padding: 5px;
+}
+#student-form{
+    margin: 5px;
+    background: lightskyblue;
+}
+#student-form form{
+    display: flex;
+    align-self: center;
+    width: 50%;
+    padding:20px;
+    background: darkcyan;
+}
+.table .thead-light th{
+    background-color: #01426d;
+    border-color: #070a0c;
+    font-size: 25px;
+    color: whitesmoke;
+}

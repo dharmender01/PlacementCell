@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+
+#signup-container{
+    width: 32%;
+    text-align: center;
+    padding: 20px;
+    height: 366px;
+    background-color: darkcyan;
+    font-family: 'Bebas Neue', cursive;
+    
+}

@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="/css/home.css">
+
+<div id="home-container">
+    <%if(locals.user){%>
+        <div id="display">
+            <div id="user-name">
+                <h1 >Welcome <%=user.name%></h1>
+            </div>
+           
+            <div id="buttons">
+                <a href="/students/fetch" class="btn btn-success">Students</a>
+                <a href="/interviews/fetch-interview" class="btn btn-success">Interviews</a>
+                <a href="/csv/download" class="btn btn-success">Download Result</a>
+                <a href="https://jobs.github.com/" class="btn btn-success">Github Jobs</a>
+            </div>
+        </div>
+    <%}else{%>
+        <div id="signin-signup-container">
+            <%-include('user_sign_in'); -%>
+            <%-include('user_sign_up'); -%>
+        </div>
+    <%}%>
+</div>
